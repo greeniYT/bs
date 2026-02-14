@@ -1,0 +1,14 @@
+<html>
+<head><script src="/assets/bootstrap.js"></script><title>404 Not Found</title></head>
+<body>
+<h1>404 Not Found</h1>
+<ul>
+<li>Code: NoSuchKey</li>
+<li>Message: The specified key does not exist.</li>
+<li>Key: favicon.ico</li>
+<li>RequestId: 76HEQ2FW80RVRKE0</li>
+<li>HostId: TFtQ2zYK90A3O6xsgigvz5O+6OL0qj4RxyBorGMhe0DwsiHcAm8PwILhCSaYqEszmBeZV5McSKE=</li>
+</ul>
+<hr/>
+</body>
+</html>
