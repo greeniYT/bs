@@ -1,0 +1,131 @@
+{
+    "$schema": "https://bridge.playgama.com/v1.27.0/schema.json",
+    "advertisement": {
+        "interstitial": {
+            "placements": [
+             {
+          	"id": "gameplay"
+             },
+             {
+          	"id": "menu"
+             }
+      	     ],
+      	    "preloadOnStart": true
+        },
+        "rewarded": {
+      	    "placements": [
+             {
+          	"id": "skin"
+             },
+             {
+          	"id": "coins"
+             },
+             {
+          	"id": "gems"
+             }
+      	     ],
+      	     "preloadOnStart": true
+    	},
+        "useBuiltInErrorPopup": true,
+        "backfillId": ""
+    },
+    "payments": [
+    {
+      "id": "30gems",
+      "playgama": {
+        "amount": 3
+      }
+    },
+    {
+      "id": "80gems",
+      "playgama": {
+        "amount": 7
+      }
+    },
+    {
+      "id": "170gems",
+      "playgama": {
+        "amount": 15
+      }
+    },
+    {
+      "id": "360gems",
+      "playgama": {
+        "amount": 30
+      }
+    },
+    {
+      "id": "950gems",
+      "playgama": {
+        "amount": 75
+      }
+    },
+    {
+      "id": "2000gems",
+      "playgama": {
+        "amount": 150
+      }
+    },
+    {
+      "id": "noAds",
+      "playgama": {
+        "amount": 5
+      }
+    },
+    {
+      "id": "starrLegendary",
+      "playgama": {
+        "amount": 13
+      }
+    },
+    {
+      "id": "boxOmega",
+      "playgama": {
+        "amount": 25
+      }
+    },
+    {
+      "id": "boxBlingUltra",
+      "playgama": {
+        "amount": 20
+      }
+    },
+    {
+      "id": "passPremium",
+      "playgama": {
+        "amount": 25
+      }
+    },
+    {
+      "id": "starterPack",
+      "playgama": {
+        "amount": 5
+      }
+    },
+    {
+      "id": "5000gems",
+      "playgama": {
+        "amount": 250
+      }
+    },
+    {
+      "id": "starterPack2",
+      "playgama": {
+        "amount": 4
+      }
+    },
+    {
+      "id": "starterPack3",
+      "playgama": {
+        "amount": 1
+      }
+    }
+  ],
+    "leaderboards": [
+    {
+      "id": "cups",
+      "isMain": true
+    }
+  ],
+    "sendAnalyticsEvents": true
+}
