@@ -218,12 +218,12 @@
                     console.log('Final codeUrl:', codeUrl);
 
                     let unityLoader = document.createElement('script')
-                    unityLoader.src = 'https://cdn.jsdelivr.net/gh/greeniYT/bs@main/cmk9tnbno00ahmh0hj6li6nrd/Build/e346f606ecd14094f0ecbb0ee3a09541.loader.js '
+                    unityLoader.src = 'https://cdn.jsdelivr.net/gh/greeniYT/bs@main/cmk9tnbno00ahmh0hj6li6nrd/Build/e346f606ecd14094f0ecbb0ee3a09541.loader.js'
                     unityLoader.onload = () => {
                         createUnityInstance(
                                 CANVAS, {
-                                    dataUrl: 'https://cdn.jsdelivr.net/gh/greeniYT/bs@main/cmk9tnbno00ahmh0hj6li6nrd/Build/344a8f7660593325f878d2e7ef2f1e83.data.br ',
-                                    frameworkUrl: 'https://cdn.jsdelivr.net/gh/greeniYT/bs@main/cmk9tnbno00ahmh0hj6li6nrd/Build/6b9b95ada69ead6f9b5ad0df6feb86f1.framework.js.br ',
+                                    dataUrl: 'https://cdn.jsdelivr.net/gh/greeniYT/bs@main/cmk9tnbno00ahmh0hj6li6nrd/Build/344a8f7660593325f878d2e7ef2f1e83.data.br',
+                                    frameworkUrl: 'https://cdn.jsdelivr.net/gh/greeniYT/bs@main/cmk9tnbno00ahmh0hj6li6nrd/Build/6b9b95ada69ead6f9b5ad0df6feb86f1.framework.js.br',
                                     codeUrl: codeUrl,
                                     streamingAssetsUrl: 'StreamingAssets',
                                     companyName: 'Fire Games',
